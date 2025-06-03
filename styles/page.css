@@ -26,8 +26,8 @@
         margin-bottom: 6.4rem;
 
     }
-    .destino_1
-    .destino_2
+    .destino_1,
+    .destino_2,
     .destino_3 {
         img {
             height: 35rem;
@@ -47,7 +47,7 @@
 
     }
 
-    .destino_1
+    .destino_1,
     .destino_2 {
         margin-bottom: 4.8rem;
 
@@ -55,4 +55,25 @@
             color: var(--accent-blue);
         }
     }
+        .destino_3 {
+            ul {
+            li:nth-of-type(1) {
+                color: var(--accent-purple);
+                } 
+            li:nth-of-type(2) {
+                color: var(--accent-pink);
+            }
+            li:nth-of-type(3){
+                color: var(--accent-orange);
+            }
+         
+            }
+
+        
+
+     }
+
+     footer {
+        text-align: center;
+     }
 }
